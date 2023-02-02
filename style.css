@@ -1,0 +1,146 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    outline: 0 auto;
+}
+/* wrepperArea */
+.wrepperArea{
+    position: relative;
+}
+/* header_top */
+.header_top{
+    background-color: darkgreen;
+    width: 100%;
+    height: 2.2rem;
+    color: #fff;
+    padding: .2rem 1rem;
+}
+
+/* main_logo */
+.main_logo{
+    position: relative;
+    width: 100%;
+    background-color: turquoise;
+}
+
+.main_logo .logo img{
+    width: 100% !important;
+    height: 100%;
+}
+
+.nevigetions{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: .4rem;
+    width: 100%;
+    background-image: linear-gradient(130deg, transparent 45%, #fff 45%);
+}
+
+.nav_item{
+    display: flex;
+    float: right;
+    margin-bottom: 0;
+}
+
+.nav_item li{
+    margin: 0 0;
+    padding: .4rem 1rem;
+    list-style: none;
+}
+.nav_item li a{
+    text-decoration: none;
+    color: black;
+    font-size: .9rem;
+    font-weight: 900;
+}
+
+.nav_item li:hover{
+    background-color: #eee;
+}
+
+
+/* content */
+/* bannar */
+.post_tlt{
+    background-color: darkgreen;
+}
+/* rnt_news */
+.rnt_news{
+    padding: 1rem;
+    /* box-shadow: 0px 2px 5px rgb(0,0,0, .4); */
+}
+.rnt_news .label{
+    height: 2rem;
+    background-color: rgb(26, 238, 132);
+    line-height: 2rem;
+    text-transform: capitalize;
+    padding: 0 2rem;
+
+    color: #fff;
+}
+
+/* cnt_post */
+
+.cnt_post{
+    padding: 1rem;
+}
+
+.box{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 40%);
+    padding: .5rem;
+    margin: .7rem;
+
+}
+
+.cnt_post .col-6{
+    width: 47% !important;
+} 
+
+
+.box li{
+}
+
+.box li a{
+    color: rgb(138, 169, 226);
+    font-size: .7rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.box-green{
+    border-top: 3px solid green;
+}
+
+
+.box-red{
+    border-top: 2px solid red;
+}
+
+.box h3{
+    border-left: 5px solid green;
+    padding-left: 1rem;
+    margin: .5rem 1rem;
+    font-size: 1.4rem;
+}
+
+
+.box-red h3{
+    border-left: 5px solid red;
+}
+
+/* sidebar */
+.sidebar{
+    border-left: 2px solid #eee;
+    border-top: 4px solid #000;
+    padding: .6rem;
+}
+
+/* footer */
+
+/* footer_menu */
+.footer_menu{
+    margin: .7rem .3rem;
+    border-top: 1px solid rgb(150, 147, 147);
+    border-bottom: 1px solid rgb(150, 147, 147);
+}
